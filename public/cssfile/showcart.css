@@ -1,0 +1,137 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Container styles */
+  .show {
+    margin: 20px auto;
+    margin-top: 120px;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Login container styles */
+  .login-container {
+    text-align: center;
+  }
+  
+  /* Form styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #cc2d1f;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #cc2d1f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  /* Order button styles */
+  .order-btn {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #appear {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .form-box {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 28px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    font-size: 28px;
+  }
+  
+  .confirm {
+    margin-top: 20px;
+  }
+  
+  input[type="submit"],
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+  }
+  
+  input[type="submit"] {
+    background: red;
+  }
+  
+  button {
+    background: red;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 500px) {
+    input[type="submit"],
+    button {
+      width: 100%;
+    }
+  }
+  
+  

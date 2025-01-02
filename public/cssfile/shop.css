@@ -1,0 +1,130 @@
+/* Product Card Styling */
+.menu-item-carousel {
+    margin-top: 40px;
+  }
+  
+  .item {
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-heading h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .section-heading h4 {
+    font-size: 18px;
+    color: #777777;
+    font-weight: normal;
+  }
+   
+  .card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card .image{
+    background-size: cover;
+    background-position: center;
+  }
+  .card .price {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .card .info {
+    margin-top: 70px;
+  }
+  
+  .card .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card .breed {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card .description {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .card .main-text-button {
+    margin-top: 20px;
+  }
+  
+  .card .scroll-to-section a {
+    color: #ffffff;
+    background-color: #ff7f00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .card .scroll-to-section a:hover {
+    background-color: #e65a00;
+  }
+
+  .shop .icons{
+    position: absolute;
+    top: 100%;
+    right: 12%;
+}
+.shop .icons a{
+    height: 5rem;
+    width: 4rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: rgb(201, 11, 11);
+    margin: 0.5rem;
+}
+.shop .icons a:hover{
+    color: rgb(0, 0, 0);
+}
+ 
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .card .price {
+      font-size: 12px;
+    }
+  
+    .card .title {
+      font-size: 16px;
+    }
+  }
+  
